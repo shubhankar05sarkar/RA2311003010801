@@ -1,0 +1,10 @@
+{
+  "name": "logging-middleware",
+  "version": "1.0.0",
+  "description": "Reusable logging middleware for Affordmed assessment",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node src/test.js"
+  }
+}

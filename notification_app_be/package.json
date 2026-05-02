@@ -1,0 +1,16 @@
+{
+  "name": "notification-app-be",
+  "version": "1.0.0",
+  "description": "Stage 1 - Priority Inbox algorithm for campus notifications",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "top10": "node src/index.js 10",
+    "top15": "node src/index.js 15",
+    "top20": "node src/index.js 20"
+  },
+  "dependencies": {
+    "logging-middleware": "file:../logging_middleware"
+  }
+}
