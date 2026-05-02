@@ -1,7 +1,7 @@
 export const API_BASE = '/evaluation-service';
 
 export const CREDENTIALS = {
-  email:        'ss6056@srmist.edu.in',
+  email:        'bossbagri28@gmail.com',
   name:         'shubhankar sarkar',
   rollNo:       'ra2311003010801',
   accessCode:   'QkbpxH',
