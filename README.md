@@ -38,10 +38,6 @@ node --env-file=.env src/index.js 10
 
 Replace `10` with `15` or `20` to change how many you want back.
 
-### Output
-
-[INSERT TERMINAL SCREENSHOT OF TOP 10 OUTPUT HERE]
-
 ---
 
 ## Stage 2 — React Frontend
@@ -78,4 +74,3 @@ Then open `http://localhost:3000`.
 Every significant action in both apps calls `Log(stack, level, package, message)` which posts a structured entry to the evaluation server. The middleware handles auth token fetching and expiry automatically.
 
 Used as a local file dependency — no npm publish needed.
-
