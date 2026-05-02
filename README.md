@@ -73,4 +73,4 @@ Then open `http://localhost:3000`.
 
 Every significant action in both apps calls `Log(stack, level, package, message)` which posts a structured entry to the evaluation server. The middleware handles auth token fetching and expiry automatically.
 
-Used as a local file dependency — no npm publish needed.
+Used as a local file dependency - no npm publish needed.
