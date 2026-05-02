@@ -1,6 +1,6 @@
 # Campus Notifications Microservice
 
-A campus notification platform where students get real-time updates for placements, events, and results. Built as part of a hiring evaluation — covers a priority inbox algorithm (Stage 1) and a React frontend (Stage 2), both wired up to a logging middleware that ships every significant action as a structured log.
+A campus notification platform where students get real-time updates for placements, events, and results. Built as part of a hiring evaluation - covers a priority inbox algorithm (Stage 1) and a React frontend (Stage 2), both wired up to a logging middleware that ships every significant action as a structured log.
 
 ---
 
@@ -24,7 +24,7 @@ Both apps need a `.env` file in their respective folders. The variables needed a
 
 ---
 
-## Stage 1 — Priority Inbox Algorithm
+## Stage 1 - Priority Inbox Algorithm
 
 The idea: fetch all notifications from the API, score them by type and recency, return the top N.
 
@@ -40,12 +40,12 @@ Replace `10` with `15` or `20` to change how many you want back.
 
 ---
 
-## Stage 2 — React Frontend
+## Stage 2 - React Frontend
 
 React + Vite app running on `localhost:3000`. Two pages:
 
-- **All Notifications** — full list, paginated, filterable by type (Placement / Result / Event), mark all read button
-- **Priority Inbox** — top N notifications ranked by priority score, adjustable between 5 / 10 / 15 / 20, with type filter
+- **All Notifications** - full list, paginated, filterable by type (Placement / Result / Event), mark all read button
+- **Priority Inbox** - top N notifications ranked by priority score, adjustable between 5 / 10 / 15 / 20, with type filter
 
 Unread notifications are visually distinct from already-viewed ones. Viewed state persists in localStorage so it survives page refresh.
 
@@ -60,12 +60,22 @@ Then open `http://localhost:3000`.
 ### Screenshots
 
 ![DESKTOP SCREENSHOT - ALL NOTIFICATIONS PAGE](https://github.com/shubhankar05sarkar/RA2311003010801/blob/ea7f18693866205ef42ed3d21f686eb336d3d21d/all-notifications-desktop.jpeg)
-
+*A clean desktop view showing all notifications with filtering and pagination.* 
+<br>
+<br>
+<br>
 ![DESKTOP SCREENSHOT - PRIORITY INBOX PAGE](https://github.com/shubhankar05sarkar/RA2311003010801/blob/ea7f18693866205ef42ed3d21f686eb336d3d21d/priority-notifications-desktop.jpeg)
-
-![MOBILE SCREENSHOT - ALL NOTIFICATIONS PAGE](https://github.com/shubhankar05sarkar/RA2311003010801/blob/ea7f18693866205ef42ed3d21f686eb336d3d21d/all-notifications-mobile.jpeg)
-
-![MOBILE SCREENSHOT - PRIORITY INBOX PAGE](https://github.com/shubhankar05sarkar/RA2311003010801/blob/ea7f18693866205ef42ed3d21f686eb336d3d21d/priority-notifications-mobile.jpeg)
+*Priority inbox displaying top notifications ranked by score.*
+<br>
+<br>
+<br>
+![MOBILE SCREENSHOT - ALL NOTIFICATIONS PAGE](https://github.com/shubhankar05sarkar/RA2311003010801/blob/ea7f18693866205ef42ed3d21f686eb336d3d21d/all-notifications-mobile.jpeg)<br>
+*Mobile layout of all notifications optimized for smaller screens.*
+<br>
+<br>
+<br>
+![MOBILE SCREENSHOT - PRIORITY INBOX PAGE](https://github.com/shubhankar05sarkar/RA2311003010801/blob/ea7f18693866205ef42ed3d21f686eb336d3d21d/priority-notifications-mobile.jpeg)<br>
+*Mobile view of priority inbox with responsive layout.*
 
 ---
 
